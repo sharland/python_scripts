@@ -1,0 +1,6 @@
+f = open("/Users/sharland/Dropbox/Computing department/Python/python scripts/files/temp","r")
+print("The first letter is:")
+print(f.read(1))
+print("The second letter is:")
+print(f.read(1))
+f.close()
