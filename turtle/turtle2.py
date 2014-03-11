@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 from turtle import *
 
 speed(10)

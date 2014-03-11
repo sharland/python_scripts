@@ -1,4 +1,6 @@
-f = open("/Users/sharland/Dropbox/Computing department/Python/python scripts/files/temp","r")
+#! /usr/bin/python3.3
+
+f = open("temp","r")
 print(f.readline())
 print("That was the first line")
 print(f.readline())

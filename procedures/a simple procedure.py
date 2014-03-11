@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 #This is the procedure being defined
 def output(number):
     print(number, "squared =",number*number)

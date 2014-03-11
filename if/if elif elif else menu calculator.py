@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 x = int(input("Value of x = "))
 y = int(input("Value of y = "))
 

@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 #simple GUI
 #demonstrates creating a window and a few other things
 

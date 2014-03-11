@@ -1,4 +1,6 @@
-f = open("/Users/sharland/Dropbox/Computing department/Python/python scripts/files/temp","r")
+#! /usr/bin/python3.3
+
+f = open("/Users/sharland/Dropbox/Computing_department/Python/python_scripts/files/temp","r")
 print("The first letter is:")
 print(f.read(1))
 print("The second letter is:")

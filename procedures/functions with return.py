@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 def calculate(number):
     newnumber = number / 100
     return (newnumber)

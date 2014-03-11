@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 x = int(input("How many hours a day do you play computer games? "))
 
 if x < 2:

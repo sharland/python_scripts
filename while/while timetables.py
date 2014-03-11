@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 x = int(input("Enter a number between 1 and 12:"))
 y = 0
 

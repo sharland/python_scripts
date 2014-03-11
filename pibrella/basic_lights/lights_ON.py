@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 import pibrella
 import time
 

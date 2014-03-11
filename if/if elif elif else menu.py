@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 menu = "What would you like:\n\
     1. A complement?\n\
     2. An insult?\n\

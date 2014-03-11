@@ -1,4 +1,6 @@
-#note the early use of culy brackets at the start and end of the dictionary and colons to separate the key/value pairs
+#! /usr/bin/python3.3
+
+#note the early use of curly brackets at the start and end of the dictionary and colons to separate the key/value pairs
 
 logins = {"john":"yellow","paul":"red","george":"blue","ringo":"green"}
 print("george's password is ",logins["george"])

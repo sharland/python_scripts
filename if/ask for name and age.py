@@ -1,3 +1,5 @@
+#! /usr/bin/python3.3
+
 myfirstname=input("Enter your first name: ")    #An input request asking for a first name
 myage=int(input("Enter your age: "))            #an input request asking for age and storing it as an integer
 if myfirstname=="Brian":                        #beginning of an if request testing if input is equal to "brian"
