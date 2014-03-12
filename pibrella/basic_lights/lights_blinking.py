@@ -1,8 +1,16 @@
 #! /usr/bin/python3.3
+#credit Brian Sharland @sharland
 
 import pibrella
 import time
 
-repeat = int(input("How many times would you like the lights to blink(up to 10)?:"))
-if repeat <11:
-	
+while pibrella.button.read() == 0:
+	repeat = int(input("How many times would you like the lights to blink(up to 10)?:"))
+	if repeat <11:	
+		for x in range(repeat):
+			print("Lights on!")
+			pibrella.light.on()
+			print("Lights off!")
+			pibrella.light.off()
+	else:
+		print("please choose a number up to and including 10")
