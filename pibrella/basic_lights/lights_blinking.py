@@ -10,6 +10,7 @@ while pibrella.button.read() == 0:
 		for x in range(repeat):
 			print("Lights on!")
 			pibrella.light.on()
+			time.sleep(0.1)
 			print("Lights off!")
 			pibrella.light.off()
 	else:
