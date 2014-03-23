@@ -1,10 +1,10 @@
-#! /usr/bin/python3.3
+#!/usr/local/bin/python3.3
 
 #simple GUI
 #demonstrates creating a window and a few other things
 
 #import
-from tkinter import *
+from tkinter import Tk, Frame
 
 #create root window
 root = Tk()
@@ -23,5 +23,5 @@ app = Frame(root) #pass root to frame constructor, new frame is now in the root
 app.grid()
 
 #create a label in the frame
-lbl = Label(app,text = "I'm a label")
-
+w = Label(root, text="Hello, world!")
+w.pack()
