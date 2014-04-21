@@ -10,8 +10,10 @@ while pibrella.button.read() == 0:
 		for x in range(repeat):
 			print("Lights on!")
 			pibrella.light.on()
-			time.sleep(0.1)
+			time.sleep(1)
 			print("Lights off!")
 			pibrella.light.off()
 	else:
 		print("please choose a number up to and including 10")
+
+print("Button pushed - got to go!")
