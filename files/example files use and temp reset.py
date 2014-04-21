@@ -1,4 +1,4 @@
-#! /usr/bin/python3.3
+#! /usr/bin/env python3
 
 f = open("/Users/sharland/Dropbox/Computing_department/Python/python_scripts/files/temp","w")
 for n in range(1,11):

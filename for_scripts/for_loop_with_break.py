@@ -1,4 +1,4 @@
-#! /usr/bin/python3.3
+#! /usr/bin/env python3
 
 for x in range (1000000):
     y = x*x

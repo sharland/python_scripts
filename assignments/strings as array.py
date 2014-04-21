@@ -1,4 +1,4 @@
-#! /usr/bin/python3.3
+#! /usr/bin/env python3
 
 name = "Brian"
 print(name[2])

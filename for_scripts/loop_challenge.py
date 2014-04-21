@@ -1,5 +1,4 @@
-#! /usr/bin/python3.3
-
+#! /usr/bin/env python3
 x = int(input("Enter a number between 1 and 12:"))
 
 if x in range(12,156,12):

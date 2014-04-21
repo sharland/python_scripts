@@ -1,4 +1,4 @@
-#! /usr/bin/python3.3
+#! /usr/bin/env python3
 
 #note the early use of curly brackets at the start and end of the dictionary and colons to separate the key/value pairs
 

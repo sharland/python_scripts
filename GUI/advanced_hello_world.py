@@ -1,4 +1,4 @@
-#!/usr/local/bin/python3.3
+#!/usr/bin/env python3
 #source http://effbot.org/tkinterbook/tkinter-hello-again.htm
 
 from tkinter import *
