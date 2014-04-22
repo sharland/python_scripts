@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/local/bin/python3
 #Credit Laura @codeboom source http://codeboom.wordpress.com/sweet-resources/hangman/
 
 # Blackjack program (21)

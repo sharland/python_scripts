@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/local/bin/python3
 """
 Program: assignment.py
 Author: Mark Clarkson

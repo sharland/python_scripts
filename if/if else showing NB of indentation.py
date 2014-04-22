@@ -1,4 +1,4 @@
-#! /usr/bin/python3.3
+#! /usr/local/bin/python3
 
 x = int(input("How many hours a day do you play computer games? "))
 

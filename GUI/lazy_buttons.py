@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#! /usr/local/bin/python3
 
 #simple GUI
 #demonstrates creating a window and a few other things

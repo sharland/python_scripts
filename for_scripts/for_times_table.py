@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/local/bin/python3
 
 x = int(input("Enter a number between 1 and 12: ")) #this value is going to remain fixed through the for loop below
 

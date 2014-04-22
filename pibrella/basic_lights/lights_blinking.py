@@ -1,4 +1,4 @@
-#! /usr/bin/python3.3
+#! /usr/local/bin/python3
 #credit Brian Sharland @sharland
 
 import pibrella

@@ -1,4 +1,4 @@
-#! /usr/bin/env python3
+#! /usr/local/bin/python3
 
 for x in range(1,11):				#sets up the first for loop
     for y in range(1,11):			#nests another loop inside

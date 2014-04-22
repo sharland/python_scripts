@@ -1,4 +1,4 @@
-#! /usr/bin/python3.3
+#! /usr/local/bin/python3
 
 from visual import *
 redbox=box(pos=vector(4,2,3),
