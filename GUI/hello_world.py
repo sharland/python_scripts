@@ -4,7 +4,9 @@ from tkinter import *
 
 master = Tk()
 
-w = Label(master, text="Hello, world!")
-w.pack()
+app = Frame(master)
+
+w = Label(app, text="Hello, world!")
+w.grid()
 
 mainloop()

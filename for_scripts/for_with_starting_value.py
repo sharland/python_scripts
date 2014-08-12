@@ -1,5 +1,5 @@
 #! /usr/local/bin/python3
 
-for x in range(5,10):
+for x in range(50,1000):
     print(x)
     
