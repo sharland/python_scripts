@@ -13,12 +13,6 @@ hideturtle()
 
 colormode(255)
 
-randomRed = random.randint(1,254)
-randomGreen = random.randint(1,254)
-randomBlue = random.randint(1,254)
-
-
-
 def saveImage(fileName):
     turtleImage = getscreen()
     turtleImage.getcanvas().postscript(file=fileName+".eps")
@@ -42,11 +36,12 @@ filenames = ["frame1","frame2","frame3","frame4","frame5","frame6","frame7"]
 
 for i in range(7):
     for j in range(150):
-        randomLength = random.randint(0,frames[i])
-        randomTurn = random.randint(-95,95)
         randomRed = random.randint(1,254)
         randomGreen = random.randint(1,254)
         randomBlue = random.randint(1,254)
+
+        randomLength = random.randint(0,frames[i])
+        randomTurn = random.randint(-95,95)
         
         pencolor(randomRed,randomGreen,randomBlue)
         forward(randomLength)
