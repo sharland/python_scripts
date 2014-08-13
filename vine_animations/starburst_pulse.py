@@ -5,6 +5,7 @@ from PIL import Image
 import random
 import os
 import glob
+import ghostscript
 
 title("Vine Video")
 setup(480, 480, 0, 0)
@@ -18,7 +19,7 @@ def saveImage(fileName):
     turtleImage.getcanvas().postscript(file=fileName+".eps")
     print("File saved as ",fileName+".eps")
 
-def tiff2jpg(): ### Convert .tiff files to .jpg - function from @trevorappleton
+def eps2jpg(): ### Convert .eps files to .jpg - function from @trevorappleton
  
     openFiles = glob.glob('*.eps')
     for files in openFiles:
@@ -29,6 +30,7 @@ def tiff2jpg(): ### Convert .tiff files to .jpg - function from @trevorappleton
         inFile.save(outFile)
  
     return()
+
 
 frames = [50,98,141,178,208,228,239]
 filenames = ["frame1","frame2","frame3","frame4","frame5","frame6","frame7"]
@@ -54,7 +56,7 @@ write("done - close turtle window now")
 
 print("beginning conversion from .eps to .jpg")
 
-tiff2jpg()
+eps2jpg()
 
 print("conversion eps to jpg done")
 
