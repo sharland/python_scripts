@@ -16,7 +16,7 @@ def polygon(sides, length):
 hideturtle()
 
 # tell python to no longer update the graphics
-tracer(0)
+#tracer(0)
 
 for x in range(1000):
     # choose a random spot
@@ -46,4 +46,4 @@ for x in range(1000):
 # update the screen with our drawing
 update()
 
-exitonclick()
+done()

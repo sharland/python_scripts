@@ -7,7 +7,7 @@ title("Marking an area")
 setup(500, 500, 0, 0)
 bgcolor("orange")
 
-delay(0)
+speed(0)
 
 for x in range (0,200):
         xpos = random.randint(-250,250)

@@ -2,13 +2,15 @@
 
 from turtle import *
 
+speed(0)
+
 def circle1():
 	for x in range (1,73):
 		forward(150)
 		right(95)
 		stamp()
 	
-	turtle.exitonclick()
+	done()
 	printMenu()
 
 def circle2():
@@ -20,22 +22,22 @@ def circle2():
 	mainloop()
 	printMenu()
 
-#def printMenu():
+def printMenu():
 
-#	print('enter the number of the option you wish to run')
-#	print ('Run Circle 1:')
-#	print ('Run Circle 2:')
+	print('enter the number of the option you wish to run')
+	print ('Run Circle 1:')
+	print ('Run Circle 2:')
 
-#	menuChoice = int(input('Make your choice'))	
+	menuChoice = int(input('Make your choice'))	
 
-#	if menuChoice == 1:
-#		circle1()
-#	elif menuChoice == 2:
-#		circle2()
-#	else:
-#		quit()
+	if menuChoice == 1:
+		circle1()
+	elif menuChoice == 2:
+		circle2()
+	else:
+		quit()
 		
-#printMenu()
+printMenu()
 
 onkey(circle1,"Up")
 onkey(circle2,"Down")

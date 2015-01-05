@@ -5,7 +5,7 @@ import random
 title("Marking an area")
 setup(500, 500, 0, 0)
 bgcolor("orange")
-delay(0)
+tracer(0)
 penup()
 goto(51,51)
 pendown()

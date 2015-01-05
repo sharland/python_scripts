@@ -41,4 +41,5 @@ for j in range (drawItems):
 	forward(drawLength[position])
 
 hideturtle()	
+
 done()

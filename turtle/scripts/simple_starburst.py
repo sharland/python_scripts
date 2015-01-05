@@ -7,7 +7,8 @@ title("Starburst")
 setup(500, 500, 0, 0)
 
 colormode(255)
-delay(0)
+##delay(0)
+speed(0)
 
 randomRed = random.randint(1,254)
 randomGreen = random.randint(1,254)
@@ -24,9 +25,11 @@ def saveImage():
 
 for x in range (1,150):
 	randomValue = random.randint(-95,200)
+	
 	randomRed = random.randint(1,254)
 	randomGreen = random.randint(1,254)
 	randomBlue = random.randint(1,254)
+	
 	pencolor(randomRed,randomGreen,randomBlue)
 	forward(randomValue)
 	right(randomValue)

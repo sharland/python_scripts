@@ -6,7 +6,7 @@ andy = Turtle()     #create new object andy from class turtle
 bill = Turtle()     #create new object bill from class turtle
 
 colormode(1.0)
-delay(0)
+speed(0)
 
 def drawCircle(t,repetition,length,turn):
     for i in range(repetition):
@@ -14,7 +14,7 @@ def drawCircle(t,repetition,length,turn):
         t.right(turn)
 
 andy.pencolor("red")
-drawCircle(andy,50,150,25)
+drawCircle(andy,50,150,65)
 
 bill.pencolor("blue")
 drawCircle(bill,20,100,85)

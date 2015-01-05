@@ -27,6 +27,6 @@ while keepgoing == True:
         clear()
 
         # draw the polygon
-        polygon(sides, 100)
+        polygon(sides, 50)
 
 exitonclick()

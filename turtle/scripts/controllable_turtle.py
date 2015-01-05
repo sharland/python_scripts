@@ -35,4 +35,4 @@ def quitTurtles():
     
 setup("blue",-200,200,2,2,"turtle")
 
-mainloop()
+done()

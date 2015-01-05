@@ -2,7 +2,7 @@
 
 from turtle import *
 
-speed(10)
+speed(0)
 x = 0
 
 colormode(255)

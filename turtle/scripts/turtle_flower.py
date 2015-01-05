@@ -1,15 +1,20 @@
 #! /usr/local/bin/python3
 
 from turtle import *
+speed(1)
+colormode(255)
 
 x = 0
-position()
-while x<10:
-    delay(0)
-    speed(3)
+
+fillcolor(255,0,255)
+
+begin_fill()
+while x<8:
     right(45)
     circle(50)
     dot(20,"red")
-    print(x)
     x = x+1
     
+end_fill()
+
+done()
