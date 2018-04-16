@@ -1,0 +1,17 @@
+locpos,dir1,dir2,dir3,dir4
+ExtN,N,E,S,W
+ExtNE,N,E,S,W
+ExtE,N,E,S,W
+ExtSE,N,E,S,W
+ExtS,N,E,S,W
+ExtSW,N,E,S,W
+ExtW,N,E,S,W
+ExtNW,N,E,S,W
+OutN,E,S,W,
+OutNE,S,SW,E,
+OutE,N,S,W,
+OutSE,N,E,NE,
+OutS,N,E,W,
+OutSW,N,NE,E,
+OutW,N,E,S,
+OutNW,E,SE,S,

@@ -1,4 +1,4 @@
-#! /usr/bin/python3.3
+
 #Credit Laura @codeboom source http://codeboom.wordpress.com/sweet-resources/hangman/
 
 # Blackjack program (21)
@@ -11,7 +11,7 @@ import random
 def deal_card():
     return random.randrange(1,10)
 
-# Only performed at the start when we deal 2 cards 
+# Only performed at the start when we deal 2 cards
 def starting_deal():
     return deal_card() + deal_card()
 

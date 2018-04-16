@@ -1,0 +1,8 @@
+from collections import namedtuple
+
+Vision = namedtuple('Vision', ['left', 'right'])  # sets up named tuple 'frame'
+# creates a new tuple object using nametuple frame and applies values
+vision = Vision(9.5, 8.8)
+print(vision[0])  # can now fetch values with index
+print(vision.left)  # can also fetch via named attribute
+print(vision.right)

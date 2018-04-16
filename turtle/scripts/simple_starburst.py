@@ -25,7 +25,8 @@ def saveImage():
 
 for x in range (1,150):
 	randomValue = random.randint(-95,200)
-	
+	randomStart = random.randint(-10,10)	
+
 	randomRed = random.randint(1,254)
 	randomGreen = random.randint(1,254)
 	randomBlue = random.randint(1,254)
@@ -33,7 +34,7 @@ for x in range (1,150):
 	pencolor(randomRed,randomGreen,randomBlue)
 	forward(randomValue)
 	right(randomValue)
-	goto(0,0)
+	goto(randomStart,randomStart)
 
 onkey(saveImage,"s")
 

@@ -1,0 +1,42 @@
+# dictionary examples
+
+d = {}  # empty dictionary
+d['a'] = 1  # add key a and value 1
+d['b'] = 2  # add key b and value 1
+d['c'] = 3  # add key a and value 1
+
+print(len(d))  # how many pairs in dictionary?
+
+print(d['a'])  # what does key a hold?
+
+del(d['a'])  # remove key a and its value
+
+print(d)  # let's see what the dictionary looks like
+
+d['e'] = 99  # add another key value pair
+
+print('e' in d)  # is key e in the dictionary
+
+d.clear()  # remove everything from dictionary
+
+keys = "hello"
+
+# create dict with zip - note how l cant be used twice
+d = dict(zip(keys, range(0, len(keys))))
+
+print(d)
+
+print(d.keys())  # print just the keys
+print(d.values())  # print just the values
+
+print(3 in d.values())  # is this value present?
+print('h' in d.keys())  # is this key present?
+print(('o', 4) in d.items())  # is this key value pair present?
+
+d.pop('h')  # remove key h and its value
+
+d.update(z=99)  # another way to add a key value pair
+
+print(d)
+
+print(d.get('y', "Key not present")) #will try and get the key, if not print error msg

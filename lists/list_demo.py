@@ -40,5 +40,5 @@ while menu_item != 9:
             namelist[item_number] = new_name
         else:
             print(old_name, "was not found")
- 
+
 print("Goodbye")

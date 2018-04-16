@@ -1,0 +1,6 @@
+a = "bob is back!"
+b = range(1,len(a))
+
+zippedList = list(zip(a,b))
+
+print(zippedList)

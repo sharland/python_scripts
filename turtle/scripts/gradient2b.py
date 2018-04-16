@@ -12,15 +12,6 @@ hideturtle()
 setpos(-200,200)
 pendown()
 
-## lists to store colour values
-red = []
-green = []
-blue = []
-
-for i in range (256):
-	red.append(i)
-	green.append(i)
-	blue.append(i)
 
 ## set a starting rgb value
 randomRed = random.randint(0,255)
@@ -33,13 +24,13 @@ if redChoice == 0:
 	redDirection = False
 else:
 	redDirection = True
-	
+
 greenChoice = random.randint(0,1)
 if greenChoice == 0:
 	greenDirection = False
 else:
 	greenDirection = True
-	
+
 blueChoice = random.randint(0,1)
 if blueChoice == 0:
 	blueDirection = False
@@ -57,42 +48,42 @@ for i in range(200):
 	forward(1)
 	pendown()
 	left(90)
-	
-	
+
+
 	if redDirection == True:
 		randomRed += 1
 		if randomRed == 255:
 			redDirection = False
-			
+
 	if redDirection == False:
 		randomRed -= 1
 		if randomRed == 0:
 			redDirection = True
-	
+
 	if greenDirection == True:
 		randomGreen += 1
 		if randomGreen == 255:
 			greenDirection = False
-			
+
 	if greenDirection == False:
 		randomGreen -= 1
 		if randomGreen == 0:
 			greenDirection = True
-		
+
 	if blueDirection == True:
 		randomBlue += 1
 		if randomBlue == 255:
 			blueDirection = False
-			
+
 	if blueDirection == False:
 		randomBlue -= 1
 		if randomBlue == 0:
 			blueDirection = True
-	
+
 	forward(400)
 	right(90)
 	penup()
 	forward(1)
 	pendown()
-	
+
 done()

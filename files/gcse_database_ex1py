@@ -1,0 +1,6 @@
+#! /usr/local/bin/python3
+f = open('workfile.txt','w')
+for x in range (1,11):
+	f.write(str(x))
+	f.write('\n')
+f.close()

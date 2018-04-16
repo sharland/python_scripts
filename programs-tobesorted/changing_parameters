@@ -1,0 +1,6 @@
+def try_to_change(n):
+    n = 'mr gumby'
+
+name = 'mrs entity'
+try_to_change(name)
+print(name)
