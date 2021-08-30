@@ -3,8 +3,11 @@
 
     
 def create_file():
+
     currentFile = open("namesandages.csv","w")
-    for i in range(1,3): # enters 2 blank names and ages
+    close = "n"
+    while close == "n":
+
         print('enter forename ')
         forename = input()
         print('enter surname')
@@ -14,6 +17,11 @@ def create_file():
         newline = forename + (",") + surname+ "," + age
         newline += ("\n")#puts each string on a new line in file
         currentFile.write(newline)
+        closeFile = input("Do you want to close? (y/n): ")
+        print(closeFile)
+        if closeFile == "y":
+            close = "y"
+
     currentFile.close()
     return
 
@@ -41,8 +49,11 @@ def read_file():
     return
             
 def append_file():
+ 
     currentFile = open("namesandages.csv","a")#append mode
-    for i in range(1,3): # enters 2 more names
+    close = "n"
+    while close == "n":
+
         print('enter forename ')
         forename = input()
         print('enter surname')
@@ -52,6 +63,9 @@ def append_file():
         newline = forename + (",") + surname + "," + age
         newline += ("\n")#puts each string on a new line in file
         currentFile.write(newline)
+        closeFile = input("Do you want to close? (y/n): ")
+        if closeFile == "y":
+            close = "y"
     currentFile.close()
     return
 
